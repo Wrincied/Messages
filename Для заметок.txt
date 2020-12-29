@@ -1,0 +1,61 @@
+// Ready
+
+// @media screen and (max-width:900px){
+//   .hero{
+//     margin: 0px;
+//   }
+//   .hero-text{
+//     max-width: 500px;
+//   }
+//   .post-preview {
+//     display: flex;
+//     margin-bottom: 30px;
+//     flex-direction: column;
+//   }
+//   .post-preview__img img{
+//     min-height:200px; 
+//   }
+//   .post-preview__desc{
+//     padding: 0px;
+//   }
+// }
+// @media screen and (min-width:900px){
+//   .hero{
+//     margin: 0;
+//   }
+//   .hero-text{
+//     max-width: 700px;
+//   }
+//   .post-preview {
+//     display: flex;
+//     margin-bottom: 30px;
+//     flex-direction: column;
+//   }
+//   .blog-heading__title{
+//     font-size: 30px;
+//   }
+//   .post-preview__img img{
+//     min-height:200px; 
+//   }
+//   .post-preview__desc{
+//     padding: 0px;
+//   }
+// }
+
+// @media screen and (min-width: 1200px){
+//   .hero{
+//     text-align: left;
+//     margin-left: 315px;
+//     margin-top: 195px;
+//     background-color: #353a3f;
+//     width: 100vh;
+//   }
+//   .post-preview {
+//     display: flex;
+//     margin-bottom: 30px;
+//     flex-direction: row;
+//   }
+//   .post-preview__desc{
+//     margin-left: 30px;
+//   }
+// }
