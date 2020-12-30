@@ -138,6 +138,21 @@
     }
   }
 }
+.dropdown__text p{
+  max-width: 600px;
+  padding: 7px;
+  color: #dedbe6;
+  font-family: 'Open Sans',italic;
+  font-size: 15px;
+  line-height: 25px;
+  @media all and (max-width:490px){
+    &{
+      font-size: 20px;
+      margin: 0px;
+      padding: 2px;
+    }
+  }
+}
 .header__text span{
   color: #bbb;
   font-family: 'Open Sans',italic;
