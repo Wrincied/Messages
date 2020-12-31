@@ -1,6 +1,8 @@
+const { contains } = require("jquery");
+
 console.log(navigator.userAgent);
-$(document).ready(function(){
-   
+$(document).ready(function(){    
+
     $('.spoiler-body').hide();
     $('.spoiler-title').click(function(){
         document.title = "С новым город";
@@ -14,3 +16,5 @@ $(document).ready(function(){
         }
     });
     });
+
+    console.log;
