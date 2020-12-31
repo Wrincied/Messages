@@ -87,6 +87,10 @@
 
 
 // Main scss code
+body{
+background-color: #141213;
+}
+
 
 .wrapper{
   width: 100%;
@@ -102,13 +106,14 @@
 
 & .header{
   background-color: #283043;
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-  min-height: 1200px;
+  box-shadow: 0 14px 28px rgba(255, 255, 255, 0.575), 0 10px 10px rgba(255, 255, 255, 0.575);
+  min-height: 1350px;
   } 
 }
 @media screen and(max-width:600px){
   .header{
     background-color: white;
+    
   }
 }
 .header__title h1{
@@ -200,4 +205,4 @@ h2{
   font-size: 20px;
   font-family: 'Open Sans',italic;
 }
-.spoiler-body{display:none;background:#283043;}
+.spoiler-body{display:none;background:#283043;box-shadow: 1px rgba(255, 255, 255, 0.575)}
